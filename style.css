@@ -1,0 +1,174 @@
+body
+{
+  background-color:rgba(39, 50, 52, 0.735);
+}
+.icon
+{
+  border-radius:10px;
+}
+.wel
+{
+  color:#F5F5DC;
+  text-align:center;
+  font-size:40px;
+  margin-top:60px;
+  width:100%;
+  font-family: Cambria Math;
+  text-shadow:30px 10px 30px #126398;
+  box-shadow: 10px 10px 30px #2b1a1a;
+  background-color:rgb(0,70,87);
+}
+
+.img
+{
+  margin-top:90px;
+  float:left;
+  width:50%;
+  height:400px;
+  align-items:end;
+  justify-items: end;
+  border-radius:300px;
+}
+.altimg
+{
+  margin-left:100px;
+}
+.group
+{
+  width:50%;
+  float:right;
+  border-radius:300px;
+  height:400px;
+  display:flex;
+  align-items:center;
+  text-align:center;
+  margin-top:20px;
+}
+.innerimg
+{
+  width:300px;
+  height:300px;
+  border-radius:150px;
+  margin-left:350px;
+  box-shadow: 10px 10px 40px black;
+  cursor:pointer;
+  position:absolute;
+}
+.outerimg
+{
+  margin-top:92px;
+  width:290px;
+  height:290px;
+  border-radius:150px;
+  margin-left:355px;
+  box-shadow: 10px 10px 40px black;
+  cursor:pointer;
+  position:absolute;
+}
+.innerimg:hover
+{
+  opacity:0;
+  transition:opacity 2s;
+}
+.outerimg:hover, .innerimg
+{
+  transition: opacity 2s;
+}
+.div2
+{
+  flex-direction:column;
+  display: flex;
+}
+.timg-caption
+{
+  font-family:'Segoe UI', Tahoma, sans-serif;
+  font-size: 130%;
+  margin-top:2px;
+  color:#F5F5DC;
+  text-shadow:10px 10px 15px rgb(24, 20, 16);
+}
+.nm
+{
+  border-radius:5px;
+  border-style:solid;
+  margin-bottom:15px;
+  border-width:1.2px;
+  width:200px;
+  height:25px;
+  padding-left:10px;
+  box-shadow: 5px 5px 40px rgb(26, 4, 4);
+}
+.nm:hover
+{
+  border-color:rgb(24,119,242);
+  border-width:1.5px;
+}
+.gm
+{
+  border-width:1.2px;
+  width:200px;
+  height:25px;
+  border-radius:5px;
+  padding-left:10px;
+  border-style:solid;
+  margin-bottom:20px;
+}
+.gm:hover
+{
+  border-color:rgb(24,119,242);
+  border-width:1.5px;
+}
+.signin
+{
+  background-color:rgb(24,119,242);
+  border-style:solid;
+  height:25px;
+  border-width:0.5px;
+  border-color:rgb(24,119,242);
+  cursor:pointer;
+  color:#fff;
+  border-radius:5px;
+  box-shadow: 10px 10px 40px black;
+}
+.signin:hover
+{
+  opacity:0.8;
+  border-color:#fff;
+}
+.forget
+{
+  text-decoration: none;
+  font-family:calibri;
+  color:#F5F5DC;
+  text-shadow: 10px 30px 20px black;
+  cursor:pointer;
+}
+.forget:hover
+{
+  opacity:0.8;
+}
+.olduser
+{
+  border-radius:5px;
+  border-width:0.5px;
+  border-style:solid;
+  border-color:rgb(66,183,42);
+  height:25px;
+  background-color: rgb(66,183,42);
+  cursor:pointer;
+  box-shadow: 10px 10px 40px black;
+}
+.olduser:hover
+{
+  opacity:0.9;
+  border-color:#fff;
+}
+.bottom
+{
+  margin-left:300px;
+  width:55%;
+  height:70vh;
+  background-color:rgba(46, 55, 57, 0.735);
+  box-shadow:5px 5px 30px #fff;
+  border-radius:5px;
+}
