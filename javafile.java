@@ -699,6 +699,6 @@ class Register
 	}
 	public static void FinalBill()
 	{
-		System.out.println("Thank you for ordering\n you order is successfully ordered");
+		System.out.println("Thank you for ordering\n your order is successfully ordered");
 	}
 }
